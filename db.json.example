@@ -1,0 +1,33 @@
+{
+  "platformSettings": {
+    "metaAppId": "",
+    "metaAppSecret": "",
+    "metaGraphVersion": "v20.0",
+    "systemWebhookUrl": "https://whatsapp.sheetbotics.in/webhook/whatsapp",
+    "systemWebhookVerifyToken": "sheetbotics_live_token_2026",
+    "paymentGateway": {
+      "provider": "razorpay",
+      "keyId": "",
+      "keySecret": "",
+      "webhookSecret": ""
+    },
+    "smtp": {
+      "senderEmail": "noreply@sheetbotics.app",
+      "host": "smtp.sendgrid.net",
+      "port": 587,
+      "secure": true
+    },
+    "maintenanceMode": false,
+    "updatedAt": "2026-09-28T00:00:00.000Z"
+  },
+  "webhookLogs": [],
+  "auditLogs": [
+    {
+      "id": "aud_init_01",
+      "action": "SYSTEM_INITIALIZED",
+      "details": "Platform ready for production deployment.",
+      "admin": "System",
+      "timestamp": "2026-09-28T00:00:00.000Z"
+    }
+  ]
+}
